@@ -1,4 +1,6 @@
-
+html{
+  color-scheme: black;
+}
   
   * {
     margin: 0;
@@ -10,11 +12,13 @@
     height: 100vh;
     width: 100vw;
     background-color: black;
+    background-size: cover;
     /* background: url('https://4kwallpapers.com/images/walls/thumbs_3t/3926.jpg') no-repeat center center fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+  
+  
   }
   .r{
    
@@ -28,8 +32,8 @@
     position: fixed;
     top: 100vw;
     left: 100vw; 
-    height: 380px;
-    width: 380px;
+    height: 400px;
+    width: 400px;
     background-image: url("https://res.cloudinary.com/datowd0cc/image/upload/v1699373600/Space-game/mrcaxqla65cimw7cm8ow.png");
     background-size: cover;
     animation: rotation 50s;
@@ -121,12 +125,15 @@
       width: 150px;
       height: 150px;
     }
-    .pipe_sprite {
+    .asteroid {
       width: 90px;
       height: 90px;
     }
     .earth{
       opacity: 0;
+    }
+    body{
+      translate: rotate(90deg);
     }
   }
   
@@ -162,9 +169,6 @@
     height: 380px;
     border-radius: 360px;
     margin: 50px;
-    position: absolute;
-    /* top: 550px; */
-    left: 50px;
     animation-name: shrink;
     animation-duration: 45s;
     animation-iteration-count: 1;
@@ -175,7 +179,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
+    /* height: 100vh; */
+    position: absolute;
+    top: 300px;
+    left: 100px;
   }
   
   @keyframes shrink {
