@@ -30,7 +30,7 @@
     left: 100vw; 
     height: 380px;
     width: 380px;
-    background-image: url("./images/astroid.png");
+    background-image: url("https://res.cloudinary.com/datowd0cc/image/upload/v1699373600/Space-game/mrcaxqla65cimw7cm8ow.png");
     background-size: cover;
     animation: rotation 50s;
     animation-timing-function: linear;

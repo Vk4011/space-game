@@ -81,14 +81,14 @@ function play(){
         rocket_dy = rocket_dy + gravity;
         document.addEventListener('keydown', (e) => {
             if(e.key == 'ArrowUp' || e.key == ' '){
-                img.src = 'images/rocket-1.png';
+                img.src = 'https://res.cloudinary.com/datowd0cc/image/upload/v1699373600/Space-game/ow5jqt6u6bjbwudmxfrn.png';
                 rocket_dy = -7.6;
             }
         });
 
         document.addEventListener('keyup', (e) => {
             if(e.key == 'ArrowUp' || e.key == ' '){
-                img.src = 'images/rocket.png';
+                img.src = 'https://res.cloudinary.com/datowd0cc/image/upload/v1699373600/Space-game/fan3vqbs82edk5t98hcr.png';
             }
         });
 
