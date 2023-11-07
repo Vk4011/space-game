@@ -1,6 +1,4 @@
-html {
-    color-scheme: light dark;
-  }
+
   
   * {
     margin: 0;
@@ -11,7 +9,8 @@ html {
   .background {
     height: 100vh;
     width: 100vw;
-    background: url('https://4kwallpapers.com/images/walls/thumbs_3t/3926.jpg') no-repeat center center fixed;
+    background-color: black;
+    /* background: url('https://4kwallpapers.com/images/walls/thumbs_3t/3926.jpg') no-repeat center center fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -164,7 +163,7 @@ html {
     border-radius: 360px;
     margin: 50px;
     position: absolute;
-    top: 550px;
+    /* top: 550px; */
     left: 50px;
     animation-name: shrink;
     animation-duration: 45s;

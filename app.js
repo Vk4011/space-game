@@ -36,6 +36,10 @@ document.addEventListener('keydown', (e) => {
 });
 
 function play(){
+    
+        const audio = new Audio('./sounds effect/bgm.mp3');
+        audio.play();
+    
     function move(){
         if(game_state != 'Play') return;
 
@@ -53,6 +57,7 @@ function play(){
                     message.classList.add('messageStyle');
                     img.style.display = 'none';
                     sound_die.play();
+                    audio.pause();
                     return;
                 }else{
                     if(asteroid_props.right < rocket_props.left && asteroid_props.right + move_speed >= rocket_props.left && element.increase_score == '1'){
