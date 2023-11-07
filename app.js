@@ -4,6 +4,9 @@ let img = document.getElementById('rocket');
 let sound_point = new Audio('sounds effect/point.mp3');
 let sound_die = new Audio('sounds effect/die.mp3');
 
+
+
+
 // Getting rocket element properties
 let rocket_props = rocket.getBoundingClientRect();
 
